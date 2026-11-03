@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="trip.TripLedgerTest" time="0.041" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/KON1362/Documents/trip-expense-splitter/target/test-classes:/Users/KON1362/Documents/trip-expense-splitter/target/classes:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/KON1362/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/KON1362/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/KON1362/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/KON1362/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/KON1362/Documents/trip-expense-splitter/target/surefire/surefirebooter-20261103122004186_3.jar /Users/KON1362/Documents/trip-expense-splitter/target/surefire 2026-11-03T12-20-04_126-jvmRun1 surefire-20261103122004186_1tmp surefire_0-20261103122004186_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/KON1362/Documents/trip-expense-splitter/target/test-classes:/Users/KON1362/Documents/trip-expense-splitter/target/classes:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/KON1362/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/KON1362/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/KON1362/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/KON1362/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/KON1362/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="test" value="TripLedgerTest"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/KON1362"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/KON1362/Documents/trip-expense-splitter"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/KON1362/Documents/trip-expense-splitter/target/surefire/surefirebooter-20261103122004186_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+10-LTS"/>
+    <property name="user.name" value="KON1362"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.6.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.11+10"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA 2025.3.2.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="localRepository" value="/Users/KON1362/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/4m/9rysxv255tg6mh0bfqj4h1ww0000gp/T/"/>
+    <property name="idea.version" value="2025.3.2"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="/Users/KON1362/Documents/trip-expense-splitter"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/KON1362/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.11+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="maven.repo.local" value="/Users/KON1362/.m2/repository"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="expenseRejectsPayerNotInParticipants" classname="trip.TripLedgerTest" time="0.013"/>
+  <testcase name="expenseRejectsUnknownPerson" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="noTransactionsMeansNoDebtsAndNoSettlements" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="paymentRejectsNonPositiveAmount" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="expenseSplitsEquallyAcrossAllFourPeople" classname="trip.TripLedgerTest" time="0.002"/>
+  <testcase name="paymentRejectsUnknownPerson" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="historyRecordsEveryTransactionInOrder" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="settleUpAfterManyRandomPaymentsStillZeroesOut" classname="trip.TripLedgerTest" time="0.002"/>
+  <testcase name="settleUpPlanZeroesOutEveryBalanceWhenReplayed" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="ledgerRejectsFewerThanTwoPeople" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="expenseCanBeScopedToASubsetOfParticipants" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="expenseRejectsDuplicateParticipantNames" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="repayingTrainTicketSharesViaPaymentsBringsThoseTwoPeopleToZero" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="paymentMovesBalanceDirectlyBetweenTwoPeople" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="ledgerRejectsDuplicatePersonNames" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="expenseRejectsNonPositiveAmount" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="paymentRejectsSamePersonOnBothSides" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="settleUpProducesZeroTransactionsWhenAlreadyBalanced" classname="trip.TripLedgerTest" time="0.001"/>
+  <testcase name="mixedExpensesAndPaymentsNetOutCorrectly" classname="trip.TripLedgerTest" time="0.0"/>
+  <testcase name="settleUpUsesAtMostNMinusOneTransactions" classname="trip.TripLedgerTest" time="0.001"/>
+</testsuite>
